@@ -47,5 +47,24 @@ function menorQueVinte (lista){
 
 function primeiroEUltimo (lista){
 
-    return [lista[0], lista[lista.length - 1]];        
+    let primeiro = 0
+    let ultimo = 0
+    
+    for(let i=0; i<lista.length;i++){
+
+     if (i == 0){
+        primeiro = lista[i]
+     };
+
+     if (i == (lista.length - 1)){
+        
+        ultimo = lista[lista.length - 1]
+
+     }
+
+     }
+
+    return primeiro
+    return ultimo
+    
 }
