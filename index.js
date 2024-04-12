@@ -64,7 +64,6 @@ function primeiroEUltimo (lista){
 
      }
 
-    return primeiro
-    return ultimo
+    return [primeiro,ultimo]
     
 }
